@@ -51,7 +51,7 @@ Clone a copy of the repo:
 git clone https://github.com/MediaMonks/seng-config.git
 ```
 
-Change to the TypeScript directory:
+Change to the seng-config directory:
 ```
 cd seng-config
 ```
@@ -63,9 +63,9 @@ npm install
 
 Use one of the following scripts:
 ```
-npm run build   	# build this project
+npm run build   	# build this project (done on install)
+npm run typings		# install .d.ts dependencies (done on install)
 npm test    		# run the tests
-npm run typings		# install .d.ts dependencies
 npm run lint		# run tslint on this project
 npm run doc			# generate typedoc documentation
 ```

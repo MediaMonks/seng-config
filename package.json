@@ -1,7 +1,7 @@
 {
   "name": "seng-config",
   "version": "1.0.2",
-  "description": "Manages a config file by merging environments and providing a usful API",
+  "description": "Manages a config file by merging environments and providing a useful API",
   "main": "dist/index.js",
   "typings": "dist/index",
   "scripts": {

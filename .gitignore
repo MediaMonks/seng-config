@@ -6,5 +6,6 @@ typings
 .DS_Store
 npm-debug.log
 /dist
+/coverage
 /test/*.js
 !/test/index.js

@@ -1,0 +1,12 @@
+engines:
+  tslint:
+    enabled: true
+  duplication:
+    enabled: true
+ratings:
+  paths:
+  - src/**
+exclude_paths:
+- doc/**/*
+- test/**/*
+- vendor/**/*

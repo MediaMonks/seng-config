@@ -7,7 +7,6 @@ node_js:
 
 sudo: false
 
-
 before_install:
   - npm install -g typings
 
@@ -17,3 +16,7 @@ before_install:
 #  on:
 #    tags: true
 #  skip_cleanup: true
+
+addons:
+    code_climate:
+        repo_token: 1787b78528df18cefaa98ff4fb3dfe55f15b5f341fc319b1a5fe25f2be15c250

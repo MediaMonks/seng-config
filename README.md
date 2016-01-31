@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/MediaMonks/seng-config.svg?branch=master)](https://travis-ci.org/MediaMonks/seng-config)
+[![Code Climate](https://codeclimate.com/github/MediaMonks/seng-config/badges/gpa.svg)](https://codeclimate.com/github/MediaMonks/seng-config)
 [![npm version](https://badge.fury.io/js/seng-config.svg)](https://www.npmjs.com/package/seng-config)
 [![Downloads](https://img.shields.io/npm/dm/seng-config.svg)](https://www.npmjs.com/package/seng-config)
 

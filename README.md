@@ -86,4 +86,3 @@ View [AUTHORS.md](./AUTHORS.md)
 ## LICENSE
 
 [MIT](./LICENSE) © MediaMonks
-

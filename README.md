@@ -1,5 +1,6 @@
 [![Build Status](https://travis-ci.org/MediaMonks/seng-config.svg?branch=master)](https://travis-ci.org/MediaMonks/seng-config)
 [![Code Climate](https://codeclimate.com/github/MediaMonks/seng-config/badges/gpa.svg)](https://codeclimate.com/github/MediaMonks/seng-config)
+[![Coverage Status](https://coveralls.io/repos/github/MediaMonks/seng-config/badge.svg?branch=master)](https://coveralls.io/github/MediaMonks/seng-config?branch=master)
 [![npm version](https://badge.fury.io/js/seng-config.svg)](https://www.npmjs.com/package/seng-config)
 [![Downloads](https://img.shields.io/npm/dm/seng-config.svg)](https://www.npmjs.com/package/seng-config)
 
@@ -37,7 +38,7 @@ configManager.getProperty('defaultLocale');
 
 ## Documentation
 
-Add custom documentation stuff
+View the [generated documentation](https://rawgit.com/MediaMonks/seng-config/master/doc/typedoc/index.html).
 
 
 ## Building

@@ -3,11 +3,6 @@ import {mockConfig} from './ConfigMock';
 
 let configManagerInstance:ConfigManager;
 
-declare var describe:any;
-declare var beforeEach:any;
-declare var it:any;
-declare var expect:any;
-
 describe('ConfigManager', () =>
 {
 	beforeEach(function()

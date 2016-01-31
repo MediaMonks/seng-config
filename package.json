@@ -5,7 +5,8 @@
   "main": "dist/index.js",
   "typings": "dist/index",
   "scripts": {
-    "postinstall": "npm run typings && npm run build",
+    "postinstall": "npm run typings",
+    "prepublish": "npm run build",
     "typings": "typings install",
     "build": "rm -rf dist && tsc -p ./",
     "test": "tsc -p ./test && karma start karma.conf.js --single-run --browsers PhantomJS",

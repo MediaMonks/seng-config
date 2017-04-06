@@ -1,4 +1,5 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 var deepAssign = require('deep-assign');
 /**
  * @namespace app.config
@@ -336,5 +337,4 @@ var ConfigManager = (function () {
     };
     return ConfigManager;
 }());
-Object.defineProperty(exports, "__esModule", { value: true });
 exports.default = ConfigManager;

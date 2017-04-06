@@ -7,7 +7,6 @@
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="assets/css/main.css">
-	<script src="assets/js/modernizr.js"></script>
 </head>
 <body>
 <header>
@@ -66,6 +65,8 @@
 		<div class="col-8 col-content">
 			<div class="tsd-panel tsd-typography">
 				<p><a href="https://travis-ci.org/MediaMonks/seng-config"><img src="https://travis-ci.org/MediaMonks/seng-config.svg?branch=master" alt="Build Status"></a>
+					<a href="https://codeclimate.com/github/MediaMonks/seng-config"><img src="https://codeclimate.com/github/MediaMonks/seng-config/badges/gpa.svg" alt="Code Climate"></a>
+					<a href="https://coveralls.io/github/MediaMonks/seng-config?branch=master"><img src="https://coveralls.io/repos/github/MediaMonks/seng-config/badge.svg?branch=master" alt="Coverage Status"></a>
 					<a href="https://www.npmjs.com/package/seng-config"><img src="https://badge.fury.io/js/seng-config.svg" alt="npm version"></a>
 				<a href="https://www.npmjs.com/package/seng-config"><img src="https://img.shields.io/npm/dm/seng-config.svg" alt="Downloads"></a></p>
 				<h1 id="config">Config</h1>
@@ -88,22 +89,21 @@ configManager.getURL(<span class="hljs-string">'api'</span>);
 <span class="hljs-comment">// get a property</span>
 configManager.getProperty(<span class="hljs-string">'defaultLocale'</span>);
 </code></pre><h2 id="documentation">Documentation</h2>
-				<p>Add custom documentation stuff</p>
+				<p>View the <a href="https://rawgit.com/MediaMonks/seng-config/master/doc/typedoc/index.html">generated documentation</a>.</p>
 				<h2 id="building">Building</h2>
 				<p>In order to build seng-config, ensure that you have <a href="http://git-scm.com/downloads">Git</a>
 				and <a href="http://nodejs.org/">Node.js</a> installed.</p>
 				<p>Clone a copy of the repo:</p>
 				<pre><code>git <span class="hljs-keyword">clone</span> <span class="hljs-title">https</span>://github.com/MediaMonks/seng-config.git
-</code></pre><p>Change to the TypeScript directory:</p>
+</code></pre><p>Change to the seng-config directory:</p>
 				<pre><code>cd seng-<span class="hljs-built_in">config</span>
 </code></pre><p>Install dev dependencies:</p>
 				<pre><code>npm <span class="hljs-keyword">install</span>
 </code></pre><p>Use one of the following scripts:</p>
-				<pre><code><span class="hljs-built_in">npm</span> run build       <span class="hljs-comment"># build this project</span>
-<span class="hljs-built_in">npm</span> test            <span class="hljs-comment"># run the tests</span>
-<span class="hljs-built_in">npm</span> run typings        <span class="hljs-comment"># install .d.ts dependencies</span>
-<span class="hljs-built_in">npm</span> run lint        <span class="hljs-comment"># run tslint on this project</span>
-<span class="hljs-built_in">npm</span> run doc            <span class="hljs-comment"># generate typedoc documentation</span>
+				<pre><code>npm <span class="hljs-keyword">run</span><span class="bash"> build       <span class="hljs-comment"># build this project (done on install)</span>
+</span>npm test            <span class="hljs-comment"># run the tests</span>
+npm <span class="hljs-keyword">run</span><span class="bash"> lint        <span class="hljs-comment"># run tslint on this project</span>
+</span>npm <span class="hljs-keyword">run</span><span class="bash"> doc            <span class="hljs-comment"># generate typedoc documentation</span></span>
 </code></pre><h2 id="contribute">Contribute</h2>
 				<p>View <a href="./CONTRIBUTING.md">CONTRIBUTING.md</a></p>
 				<h2 id="changelog">Changelog</h2>
@@ -207,7 +207,7 @@ configManager.getProperty(<span class="hljs-string">'defaultLocale'</span>);
 	</div>
 </footer>
 <div class="container tsd-generator">
-	<p>Generated using <a href="http://typedoc.io" target="_blank">TypeDoc</a></p>
+	<p>Generated using <a href="http://typedoc.org/" target="_blank">TypeDoc</a></p>
 </div>
 <div class="overlay"></div>
 <script src="assets/js/main.js"></script>

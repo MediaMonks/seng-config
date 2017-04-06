@@ -39,7 +39,7 @@
     "phantomjs-prebuilt": "^2.1.3",
     "rimraf": "^2.6.1",
     "tslint": "^3.3.0",
-    "typedoc": "ThaNarie/typedoc",
+    "typedoc": "^0.5.10",
     "typescript": "^2.2.2",
     "webpack": "^1.12.12"
   },

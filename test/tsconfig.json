@@ -7,10 +7,12 @@
 		"removeComments": false,
 		"preserveConstEnums": true,
 		"sourceMap": false,
-		"experimentalDecorators": true
+		"experimentalDecorators": true,
+    "typeRoots": [
+      "../node_modules/@types"
+    ]
 	},
   "files": [
-    "../typings/browser.d.ts",
     "./ConfigManagerSpec.ts"
   ]
 }

@@ -3,11 +3,8 @@
   "version": "1.0.2",
   "description": "Manages a config file by merging environments and providing a useful API",
   "main": "dist/index.js",
-  "typings": "dist/index",
   "scripts": {
-    "postinstall": "npm run typings",
     "prepublish": "npm run build",
-    "typings": "typings install",
     "build": "rm -rf dist && tsc -p ./",
     "test": "tsc -p ./test && karma start karma.conf.js --single-run --browsers PhantomJS",
     "doc": "typedoc --out doc/typedoc/ src/",

@@ -9,10 +9,12 @@
 		"preserveConstEnums": true,
 		"sourceMap": false,
 		"experimentalDecorators": true,
-		"outDir": "./dist"
+		"outDir": "./dist",
+    "typeRoots": [
+      "node_modules/@types"
+    ]
 	},
 	"files": [
-    "./typings/browser.d.ts",
 		"./src/index.ts"
 	]
 }

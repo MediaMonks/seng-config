@@ -26,6 +26,7 @@
     "url": "https://github.com/MediaMonks/seng-config.git"
   },
   "devDependencies": {
+    "@types/jasmine": "^2.5.47",
     "@types/node": "^7.0.12",
     "coveralls": "^2.11.6",
     "istanbul-instrumenter-loader": "^0.1.3",

@@ -4,7 +4,7 @@ All notable changes to this project will be documented in this file.
 ## [1.1.0] - 2017-04-06
 ### Added
 - rimraf
-- This changelog
+- This change log
 
 ### Changed
 - Upgraded Typescript 1.8.0 to 2.2.2
@@ -15,6 +15,7 @@ All notable changes to this project will be documented in this file.
 
 ### Fixed
 - Fix rm command using rimraf
+- Change rule for eslint (tslint was failing)
 
 ## [1.0.2] - 2016-02-01
 ### Added

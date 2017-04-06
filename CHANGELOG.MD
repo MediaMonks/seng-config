@@ -3,19 +3,19 @@ All notable changes to this project will be documented in this file.
 
 ## [1.1.0] - 2017-04-06
 ### Added
-- rimraf
+- [shx](https://github.com/shelljs/shx) npm dev dependency
 - This change log
 
 ### Changed
-- Upgraded Typescript 1.8.0 to 2.2.2
-- Remove custom typedoc installation to official one
+- Upgraded TypeScript 1.8.0 to 2.2.2
+- Changed custom [TypeDoc](https://github.com/TypeStrong/TypeDoc) npm dependency to official one
 
 ### Removed
-- Removed typings dependency
+- Removed Typings dependency
 
 ### Fixed
-- Fix rm command using rimraf
-- Change rule for eslint (tslint was failing)
+- Fix rm command using [shx](https://github.com/shelljs/shx)
+- Changed no-comment-rule for tslint (rule was failing)
 
 ## [1.0.2] - 2016-02-01
 ### Added

@@ -1,18 +1,20 @@
 {
-	"compilerOptions": {
-		"module": "commonjs",
-		"declaration": true,
-		"target": "es5",
-		"noImplicitAny": true,
-		"suppressImplicitAnyIndexErrors": true,
-		"removeComments": false,
-		"preserveConstEnums": true,
-		"sourceMap": false,
-		"experimentalDecorators": true,
-		"outDir": "./dist"
-	},
-	"files": [
-    "./typings/browser.d.ts",
-		"./src/index.ts"
-	]
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "target": "es5",
+    "noImplicitAny": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "removeComments": false,
+    "preserveConstEnums": true,
+    "sourceMap": false,
+    "experimentalDecorators": true,
+    "outDir": "./dist",
+    "typeRoots": [
+      "node_modules/@types"
+    ]
+  },
+  "files": [
+    "./src/index.ts"
+  ]
 }

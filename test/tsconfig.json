@@ -1,16 +1,18 @@
 {
-	"compilerOptions": {
-		"module": "commonjs",
-		"target": "es5",
-		"noImplicitAny": true,
-		"suppressImplicitAnyIndexErrors": true,
-		"removeComments": false,
-		"preserveConstEnums": true,
-		"sourceMap": false,
-		"experimentalDecorators": true
-	},
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "noImplicitAny": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "removeComments": false,
+    "preserveConstEnums": true,
+    "sourceMap": false,
+    "experimentalDecorators": true,
+    "typeRoots": [
+      "../node_modules/@types"
+    ]
+  },
   "files": [
-    "../typings/browser.d.ts",
     "./ConfigManagerSpec.ts"
   ]
 }

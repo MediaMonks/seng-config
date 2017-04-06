@@ -315,7 +315,7 @@ class ConfigManager
 		envs.unshift({
 			properties: this._config.properties,
 			variables: this._config.variables,
-			urls: this._config.urls
+			urls: this._config.urls,
 		});
 		envs.unshift(<any>{});
 
@@ -411,7 +411,7 @@ class ConfigManager
 					if (typeof currentVar === 'string')
 					{
 						currentVar = vars[i] = {
-							url: currentVar
+							url: currentVar,
 						};
 					}
 
@@ -421,7 +421,7 @@ class ConfigManager
 						url: currentVar.url.replace(this._varRegExp, (result:string, match:string) =>
 						{
 							return getVar(match);
-						})
+						}),
 					};
 				}
 				// only replace strings

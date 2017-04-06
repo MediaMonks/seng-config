@@ -64,7 +64,6 @@ npm install
 Use one of the following scripts:
 ```
 npm run build   	# build this project (done on install)
-npm run typings		# install .d.ts dependencies (done on install)
 npm test    		# run the tests
 npm run lint		# run tslint on this project
 npm run doc			# generate typedoc documentation
